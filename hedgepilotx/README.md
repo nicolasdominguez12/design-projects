@@ -25,11 +25,11 @@ The demonstration includes controller configuration for portfolio options, volat
 
 ## Core quantitative idea
 
-For an option portfolio with delta \\(\\Delta\\) and gamma \\(\\Gamma\\), a small price move \\(dS\\) changes delta approximately by
+For an option portfolio with delta $\Delta$ and gamma $\Gamma$, a small underlying-price move $dS$ changes delta approximately by
 
-\\[
-d\\Delta \\approx \\Gamma\,dS
-\\]
+$
+d\Delta \approx \Gamma\,dS
+$
 
 This local relationship motivates dynamic hedging, but it does **not** fully describe realized hedging P&L. Transaction costs, gamma exposure, volatility, discrete rehedging, time decay, jumps, model risk, and liquidity all matter. A useful controller must balance these competing effects.
 
