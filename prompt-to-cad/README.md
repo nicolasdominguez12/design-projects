@@ -1,50 +1,64 @@
-# Prompt-to-CAD — AI-Assisted Mechanical Design Prototype
+# Prompt-to-CAD — Natural Language to Interactive Mechanical Concepts
 
-**From a natural-language design request to an interactive mechanical model.**
+**Describe a mechanism. Generate a 3D concept. Inspect its behavior. Refine the geometry.**
 
-Prompt-to-CAD is a personal engineering prototype exploring how AI-assisted input interpretation and parametric modeling can speed up the earliest stages of mechanical design.
+Prompt-to-CAD is an engineering web-app prototype investigating how a natural-language interface can accelerate early-stage mechanical modeling while preserving explicit parameter controls and engineering review.
 
-> **Portfolio case study, not a runnable source release.** The original application's source code was not available in the materials provided for this publication. This directory documents the demonstrated workflow. It does not contain the working CAD-generation app.
+> **Documented prototype, not an open-source application release.** This folder contains a portfolio case study and illustrative web overview, not the original runnable application. The recorded demo shows interactive features, but underlying source code and CAD export fidelity have not been independently audited.
 
-## Demonstrated workflow
+## Why this matters
 
-1. **Describe:** Enter an engineering request in natural language.
-2. **Generate:** View an initial 3D mechanical concept.
-3. **Inspect:** Orbit, zoom, and review the modeled mechanism.
-4. **Refine:** Change parameters and request design adjustments.
-5. **Export:** Access CAD/mesh output options shown in the user interface for subsequent design work.
+A great deal of preliminary engineering time is spent turning rough requirements into a first-pass mechanical representation, adjusting standard geometry, and communicating changes. Prompt-to-CAD explores an interface where the user can start in plain English, then verify and edit the generated geometry instead of relying on an opaque one-shot result.
 
-![Illustrative workflow diagram](workflow.svg)
+## Demo walkthrough (1 min 51 sec)
 
-## Examples shown in the recorded demo
-
-| Mechanism | Demonstration |
+| Approx. timestamp | Demonstrated feature |
 | --- | --- |
-| Planetary gearset | Interactive geometry and parametric changes |
-| Rack and pinion | Alternate mechanism generation |
-| Threaded fastener | Additional component example |
+| 00:04 | Public-facing landing page and animated planetary-gear example |
+| 00:18 | Prompt-driven generation interface and selectable mechanism categories |
+| 00:34 | Interactive 3D planetary gearset: orbit, zoom, and animation |
+| 00:50 | Inspection modes for wireframe, bodies, and dimensions |
+| 01:06 | Parametric controls that update the modeled geometry |
+| 01:24 | Inspectable JSON specification and suggested design refinements |
+| 01:42 | Rack-and-pinion example translating rotation into linear motion |
 
-The interface also displays CAD export options and engineering/manufacturability feedback. These were visible in the demonstration; the exported files and numerical engineering results have **not** been independently tested for this portfolio entry.
+The video also illustrates an iterative workflow with follow-up adjustments and visible engineering/manufacturability feedback. UI indicators and exported-file options are shown, but actual export integrity and physical correctness have not been independently tested.
 
-## Why build this?
+## How it works from the user's perspective
 
-Engineering teams spend time translating requirements into preliminary geometry, configuring standard components, and iterating on variants. Focused internal AI tools may help automate the repetitive steps while retaining human review for design decisions.
+1. **Specify intent:** Describe geometry, proportions, and functional requirements in ordinary language.
+2. **Generate a concept:** View the resulting mechanism in the browser's 3D canvas.
+3. **Inspect:** Rotate, zoom, switch display modes, and examine dimensions.
+4. **Refine:** Adjust parameters or request further changes through the prompt interface.
+5. **Review and hand off:** Inspect generated parameter/specification data and CAD/mesh output options.
 
-The guiding idea is **AI for interpreting design intent, conventional engineering logic for geometry and verification**. This is an intended architecture, not a source-code audit.
+![Conceptual workflow diagram](workflow.svg)
 
-## Status and limitations
+## Example mechanisms
 
-- **Status:** Recorded prototype and portfolio documentation.
-- **Not included:** Original application source, build instructions, dependency manifest, live deployment, automated tests, or downloadable demonstration video.
-- **Not established:** Benchmark time savings, reliability across prompts, production-level geometric accuracy, or validated manufacturing readiness.
-- **Next steps:** Add original source and license; provide reproducible setup; test dimensions, gear meshing, clearances, CAD exports, edge cases, and failure behavior; measure results against manual workflows.
+- **Planetary gearset:** Sun, planet, and ring gear geometry with adjustable parameters and animated movement.
+- **Rack and pinion:** Demonstrates a rotational-to-linear motion concept.
+- **Additional component templates:** The interface lists other mechanism and hardware examples, including a threaded-fastener template.
 
-## Portfolio materials
+## Design philosophy
 
-- [One-page case study](index.html) — self-contained HTML overview.
-- [Project summary and résumé bullet](PORTFOLIO_ENTRY.md).
-- [Workflow illustration](workflow.svg) — conceptual, not a screenshot.
+**AI interprets design intent; explicit engineering constraints and human verification should control acceptance.** This is an architectural aspiration illustrated by the product's UI, not a confirmed audit of the underlying code.
 
-**Project category:** Mechanical Engineering · CAD · AI-Assisted Design
+## Evidence vs. outstanding work
 
-**Note:** A separate edited LinkedIn video exists in the original project materials but was not uploaded here. The presentation should not be confused with the full source implementation.
+| Shown in the demonstration | Still requires independent verification |
+| --- | --- |
+| Natural-language interaction and 3D mechanism visualization | Accuracy of inferred dimensions and real-world fit |
+| Parameter sliders and iterative changes | Gear mesh, kinematic consistency, clearances, interference |
+| Engineering notes and inspectable JSON representation | Trustworthiness of engineering calculations |
+| CAD/mesh export UI | File validity, SolidWorks interoperability, repeatability |
+
+## Portfolio resources
+
+- [One-page HTML overview](index.html)
+- [Project summary and résumé bullet](PORTFOLIO_ENTRY.md)
+- [Conceptual workflow](workflow.svg)
+
+**Status:** Recorded prototype and case-study documentation. The original MP4 demo, application source, deployment, and test suite are not hosted in this repository.
+
+**Project area:** Mechanical Design · CAD Automation · AI Interfaces · Mechanisms
