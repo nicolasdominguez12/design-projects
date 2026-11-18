@@ -4,6 +4,18 @@ Selected projects at the intersection of **mechanical engineering, software prot
 
 This repository contains project case studies, representative documentation, and selected CAD drawings. Not all showcased applications have publicly released source code. Each case study distinguishes what is visible in its demonstration from what remains to be verified.
 
+**[Open the mechanical design portfolio](https://folio-audit-nicolas-md.cozy-ant-2102.chatgpt.site/)**
+
+Watch the project videos from GitHub:
+
+| Project | Video |
+| --- | --- |
+| Hydraulic Pump Assembly | [SolidWorks drawing walkthrough](https://folio-audit-nicolas-md.cozy-ant-2102.chatgpt.site/media/pump.mp4) |
+| Prompt-to-CAD | [Prototype demo](https://folio-audit-nicolas-md.cozy-ant-2102.chatgpt.site/media/prompt.mp4) |
+| Technical CAD Drawings | [Five-sheet walkthrough](https://folio-audit-nicolas-md.cozy-ant-2102.chatgpt.site/media/drawings.mp4) |
+| MatSelect AI | [Prototype demo](https://folio-audit-nicolas-md.cozy-ant-2102.chatgpt.site/media/matselect.mp4) |
+| HedgePilotX | [Simulation demo](https://folio-audit-nicolas-md.cozy-ant-2102.chatgpt.site/media/hedge.mp4) |
+
 ## Featured projects
 
 ### 01 · [Prompt-to-CAD — AI-Assisted Mechanical Design](prompt-to-cad/README.md)
@@ -41,6 +53,6 @@ SolidWorks assembly and mechanical drawing documentation, including an exploded 
 
 ## Repository scope
 
-**The app case studies are documentation, not reproducible code releases.** Original executable app repositories, validation test suites, and uploaded MP4 demo assets are not currently part of this repository. The demonstrations were reviewed when preparing the case studies; quantitative performance, CAD accuracy, and material recommendations should not be treated as independently verified.
+**The app case studies are documentation, not reproducible code releases.** Original executable app repositories and validation test suites are not currently part of this repository. The videos are hosted on the portfolio site and linked above. The demonstrations were reviewed when preparing the case studies; quantitative performance, CAD accuracy, and material recommendations should not be treated as independently verified.
 
 For the best overview of each prototype, open its case study above. Engineering and financial decisions require their own independent verification.
