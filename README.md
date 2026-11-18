@@ -6,14 +6,14 @@ This repository contains project case studies, representative documentation, and
 
 **[Open the mechanical design portfolio](https://folio-audit-nicolas-md.cozy-ant-2102.chatgpt.site/)**
 
-Watch the project videos from GitHub:
+[Website source](portfolio/) · Project videos
 
 | Project | Video |
 | --- | --- |
-| Hydraulic Pump Assembly | [SolidWorks drawing walkthrough](https://folio-audit-nicolas-md.cozy-ant-2102.chatgpt.site/media/pump.mp4) |
 | Prompt-to-CAD | [Prototype demo](https://folio-audit-nicolas-md.cozy-ant-2102.chatgpt.site/media/prompt.mp4) |
 | Technical CAD Drawings | [Five-sheet walkthrough](https://folio-audit-nicolas-md.cozy-ant-2102.chatgpt.site/media/drawings.mp4) |
 | MatSelect AI | [Prototype demo](https://folio-audit-nicolas-md.cozy-ant-2102.chatgpt.site/media/matselect.mp4) |
+| Hydraulic Pump Assembly | [SolidWorks drawing walkthrough](https://folio-audit-nicolas-md.cozy-ant-2102.chatgpt.site/media/pump.mp4) |
 | HedgePilotX | [Simulation demo](https://folio-audit-nicolas-md.cozy-ant-2102.chatgpt.site/media/hedge.mp4) |
 
 ## Featured projects
@@ -24,25 +24,25 @@ Watch the project videos from GitHub:
 
 [Technical case study](prompt-to-cad/README.md) · [One-page project overview](prompt-to-cad/index.html) · [CV summary](prompt-to-cad/PORTFOLIO_ENTRY.md)
 
-### 02 · [MatSelect AI — Engineering Material Selection](matselect-ai/README.md)
+### 02 · [Technical CAD Drawings](CAD%20Drawings/)
+
+Five SolidWorks drawing sheets with multiple views and dimensions.
+
+### 03 · [MatSelect AI — Engineering Material Selection](matselect-ai/README.md)
 
 **Engineering constraints → ranked materials → explainable trade-offs.** A guided material-selection prototype with mechanical, environmental, manufacturing, cost, and sustainability inputs. The recorded demo shows comparative results, radar-chart visualization, material rationale, and limitations.
 
 [Project case study](matselect-ai/README.md) · [CV summary](matselect-ai/PORTFOLIO_ENTRY.md)
 
-### 03 · [HedgePilotX — Adaptive Options Hedging Research](hedgepilotx/README.md)
-
-**Dynamic hedging under a risk budget and market frictions.** A simulated quantitative research terminal exploring how rebalancing controllers trade off hedging risk, costs, robustness, and validation discipline. The video demonstrates controller comparisons, path replay, stress scenarios, held-out evaluation, and saved study records.
-
-[Research case study](hedgepilotx/README.md) · [CV summary](hedgepilotx/PORTFOLIO_ENTRY.md)
-
 ### 04 · [Hydraulic Pump Assembly](hydraulic-pump/)
 
 SolidWorks assembly and mechanical drawing documentation, including an exploded view.
 
-### Additional CAD work
+### 05 · [HedgePilotX — Adaptive Options Hedging Research](hedgepilotx/README.md)
 
-[Engineering CAD drawings](CAD%20Drawings/)
+**Dynamic hedging under a risk budget and market frictions.** A simulated quantitative research terminal exploring how rebalancing controllers trade off hedging risk, costs, robustness, and validation discipline. The video demonstrates controller comparisons, path replay, stress scenarios, held-out evaluation, and saved study records.
+
+[Research case study](hedgepilotx/README.md) · [CV summary](hedgepilotx/PORTFOLIO_ENTRY.md)
 
 ## Areas of interest
 
